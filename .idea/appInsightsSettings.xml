@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.ABMTechnoConsultants.nexus" />
+                  <option name="mobileSdkAppId" value="1:680495011232:android:3a3b02b4514add69e840c5" />
+                  <option name="projectId" value="nexus-4cd92" />
+                  <option name="projectNumber" value="680495011232" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

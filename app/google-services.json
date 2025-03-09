@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680495011232",
+    "project_id": "nexus-4cd92",
+    "storage_bucket": "nexus-4cd92.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680495011232:android:3a3b02b4514add69e840c5",
+        "android_client_info": {
+          "package_name": "com.ABMTechnoConsultants.nexus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4nMgy0cs0feFNpavhJ13moHxSxcjpzQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
