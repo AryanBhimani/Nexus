@@ -15,7 +15,6 @@ import com.ABMTechnoConsultants.nexus.presentation.userregistrationscreen.UserRe
 import com.ABMTechnoConsultants.nexus.presentation.welcomescreen.Welcomescreen
 
 @Composable
-@Preview(showSystemUi = true)
 fun WhatsAppNavigationSystem(){
 
     val navController = rememberNavController()
@@ -26,7 +25,7 @@ fun WhatsAppNavigationSystem(){
         }
 
         composable<Routes.WelcomeScreen> {
-            Welcomescreen()
+            Welcomescreen(navController)
         }
 
         composable<Routes.UserRegistrationScreen> {

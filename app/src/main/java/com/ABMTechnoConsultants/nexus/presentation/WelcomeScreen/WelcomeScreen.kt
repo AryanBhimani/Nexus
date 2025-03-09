@@ -23,11 +23,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.ABMTechnoConsultants.nexus.R
+import com.ABMTechnoConsultants.nexus.presentation.Navigation.Routes
 
 @Composable
-@Preview(showSystemUi = true)
-fun Welcomescreen (){
+//@Preview(showSystemUi = true)
+fun Welcomescreen (navHostController: NavHostController){
     Column(modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally){
         Image(
@@ -51,7 +53,7 @@ fun Welcomescreen (){
         }
         Spacer(modifier = Modifier.height(25.dp))
         Button(
-            onClick = { /*TODO*/ },
+            onClick = { navHostController.navigate(Routes.UserRegistrationScreen)},
             modifier = Modifier.size(290.dp, 45.dp),
             shape = RoundedCornerShape(8.dp),
             colors = ButtonDefaults.buttonColors(
