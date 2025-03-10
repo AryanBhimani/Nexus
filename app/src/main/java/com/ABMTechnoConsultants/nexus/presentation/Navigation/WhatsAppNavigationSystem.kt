@@ -11,7 +11,7 @@ import com.ABMTechnoConsultants.nexus.presentation.CommunitiesScreen.Communities
 import com.ABMTechnoConsultants.nexus.presentation.UpdateScreen.UpdateScreen
 import com.ABMTechnoConsultants.nexus.presentation.homescreen.HomeScreen
 import com.ABMTechnoConsultants.nexus.presentation.splashscreen.SplashScreen
-import com.ABMTechnoConsultants.nexus.presentation.userregistrationscreen.UserRegistrationScreen
+import com.ABMTechnoConsultants.nexus.presentation.userregistrationscreen.AuthScreen
 import com.ABMTechnoConsultants.nexus.presentation.welcomescreen.Welcomescreen
 
 @Composable
@@ -29,7 +29,7 @@ fun WhatsAppNavigationSystem(){
         }
 
         composable<Routes.UserRegistrationScreen> {
-            UserRegistrationScreen()
+            AuthScreen(navController)
         }
 
         composable<Routes.HomeScreen> {
