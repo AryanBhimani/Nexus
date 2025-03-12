@@ -217,7 +217,7 @@ fun AuthScreen (navController: NavHostController, phoneAuthViewModel: PhoneAuthV
             is AuthState.Success -> {
                 Log.d ("PhoneAuth", "LoginSuccessful")
                 phoneAuthViewModel.resetAuthState()
-                navController.navigate(Routes.UpdateProfileScreen){
+                navController.navigate(Routes.UserProfileSetScreen){
                     popUpTo<Routes.SplashScreen>{
                         inclusive = true
                     }

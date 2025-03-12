@@ -8,6 +8,7 @@ import androidx.navigation.compose.rememberNavController
 import com.ABMTechnoConsultants.nexus.presentation.CallScreen.CallScreen
 import com.ABMTechnoConsultants.nexus.presentation.CommunitiesScreen.Communities
 import com.ABMTechnoConsultants.nexus.presentation.CommunitiesScreen.CommunitiesScreen
+import com.ABMTechnoConsultants.nexus.presentation.Profile.UserProfileSetScreen
 import com.ABMTechnoConsultants.nexus.presentation.UpdateScreen.UpdateScreen
 import com.ABMTechnoConsultants.nexus.presentation.homescreen.HomeScreen
 import com.ABMTechnoConsultants.nexus.presentation.splashscreen.SplashScreen
@@ -30,6 +31,10 @@ fun WhatsAppNavigationSystem(){
 
         composable<Routes.UserRegistrationScreen> {
             AuthScreen(navController)
+        }
+
+        composable<Routes.UserProfileSetScreen> {
+            UserProfileSetScreen(navHostController = navController)
         }
 
         composable<Routes.HomeScreen> {
